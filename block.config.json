@@ -1,0 +1,13 @@
+{
+  "name": "addblock",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/grgshiji/addblock",
+    "ssh": "git@github.com:grgshiji/addblock.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
