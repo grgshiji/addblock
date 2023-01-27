@@ -15,6 +15,7 @@ const addblock = async (req, res) => {
   const reqData =  JSON.parse(data || "{}");
   const sum = reqData.num1 + reqData.num2
   
+  
   // Add your code here
   res.write(JSON.stringify({success: true, msg: `Sum of two numbers`, sum }))
   res.end()
